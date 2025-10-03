@@ -1,0 +1,11 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+shared = { path = "../shared" }
+bevy = { version = "0.17", default-features = false, features = [
+  "multi_threaded",
+  "bevy_state"
+] }

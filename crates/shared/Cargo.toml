@@ -1,0 +1,10 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy_ecs = { workspace = true }
+bevy_reflect = { workspace = true }
+bevy_math = { workspace = true }
+serde = { workspace = true }

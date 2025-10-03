@@ -1,0 +1,13 @@
+[workspace]
+members = ["crates/shared", "crates/client", "crates/server"]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license = "MIT OR Apache-2.0" #TODO
+
+[workspace.dependencies]
+bevy_ecs = "0.17"
+bevy_reflect = "0.17"
+bevy_math = "0.17"
+serde = { version = "1", features = ["derive"] }

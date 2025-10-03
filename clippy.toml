@@ -1,0 +1,14 @@
+# Clippy configuration
+# Lint levels are set in .cargo/config.toml or source files
+
+# Cognitive complexity threshold
+cognitive-complexity-threshold = 30
+
+# Type complexity threshold
+type-complexity-threshold = 250
+
+# Too many arguments threshold
+too-many-arguments-threshold = 10
+
+# Check for private items
+check-private-items = false

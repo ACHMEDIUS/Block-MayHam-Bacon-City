@@ -1,0 +1,8 @@
+[alias]
+# Formatting
+format = "fmt --all"
+format-check = "fmt --all -- --check"
+
+# Lint (deny warnings)
+lint = "clippy --workspace --all-targets -- -D warnings"
+lint-full = "clippy --workspace --all-targets --all-features -- -D warnings"
