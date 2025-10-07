@@ -9,3 +9,5 @@ bevy = { version = "0.17", default-features = false, features = [
   "multi_threaded",
   "bevy_state"
 ] }
+lightyear = { workspace = true }
+mlua = { workspace = true }
