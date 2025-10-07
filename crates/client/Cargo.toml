@@ -8,3 +8,5 @@ shared = { path = "../shared" }
 bevy = { version = "0.17", default-features = false, features = [
   "multi_threaded"
 ] }
+lightyear = { workspace = true }
+mlua = { workspace = true }
