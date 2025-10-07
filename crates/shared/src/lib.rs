@@ -1,14 +1,8 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+//! Shared ECS types for client and server
+//! Pure data structures with no rendering or input dependencies
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub mod components;
+pub mod events;
+pub mod net;
+pub mod prelude;
+pub mod resources;
