@@ -1,1 +1,21 @@
+# Rust
 target/
+Cargo.lock
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Bevy hot reload
+.bevy_hot_reload/

@@ -11,3 +11,5 @@ bevy_ecs = "0.17"
 bevy_reflect = "0.17"
 bevy_math = "0.17"
 serde = { version = "1", features = ["derive"] }
+lightyear = "0.24"
+mlua = { version = "0.11", features = ["lua54", "vendored", "async", "serialize"] }
