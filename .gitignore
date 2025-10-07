@@ -19,3 +19,7 @@ Thumbs.db
 
 # Bevy hot reload
 .bevy_hot_reload/
+
+# Misc
+*.local.md
+.env.*

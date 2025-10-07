@@ -1,6 +1,8 @@
-# Block MayHam: Bacon City
+<div align="center"><img src="assets/banner.png" alt="Block MayHam: Bacon City" width="350"></div>
 
-A Rust-based FPS game built with the Bevy engine. Sequel to the original Block MayHam.
+<div align="center">
+<h3>Sequel to the original Block MayHam</h3>
+</div>
 
 ## Architecture
 
@@ -106,10 +108,10 @@ cargo lint-full
 ## Planned Features
 
 ### Core Gameplay
-- ✅ FPS mechanics (movement, shooting)
-- ✅ Third-person mode
-- ✅ Health and weapon systems
-- ✅ Team-based gameplay
+- FPS mechanics (movement, shooting)
+- Third-person mode
+- Health and weapon systems
+- Team-based gameplay
 
 ### Multiplayer
 - Server-authoritative architecture
@@ -127,10 +129,6 @@ cargo lint-full
 - Lua scripting for weapon configs and game modes
 - PostgreSQL + Redis for persistence
 - C# backend for matchmaking, auth, and save data
-
-## Architecture Rationale
-
-### Why This Structure?
 
 1. **Workspace separation**: Client and server share core logic but have different dependencies
 2. **Plugin architecture**: Each gameplay system is isolated (Bevy best practice)
@@ -159,7 +157,7 @@ Client (Rust/Bevy) <--UDP--> Server (Rust/Bevy)
 
 ## License
 
-MIT OR Apache-2.0
+Coming soon!
 
 ## Roadmap
 
