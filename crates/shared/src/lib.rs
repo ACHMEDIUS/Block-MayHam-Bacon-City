@@ -6,3 +6,4 @@ pub mod events;
 pub mod net;
 pub mod prelude;
 pub mod resources;
+pub mod scripting;

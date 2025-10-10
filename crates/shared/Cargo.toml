@@ -9,3 +9,4 @@ bevy_reflect = { workspace = true }
 bevy_math = { workspace = true }
 serde = { workspace = true }
 lightyear = { workspace = true }
+mlua = { workspace = true }
